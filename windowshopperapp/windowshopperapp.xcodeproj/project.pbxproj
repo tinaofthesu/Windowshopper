@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		084979421F7E0F7A007478A6 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084979411F7E0F7A007478A6 /* Wage.swift */; };
+		084979431F7E10B8007478A6 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084979411F7E0F7A007478A6 /* Wage.swift */; };
+		08D717081F7B5A3000D5A3A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D717071F7B5A3000D5A3A8 /* AppDelegate.swift */; };
+		08D7170A1F7B5A3000D5A3A8 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D717091F7B5A3000D5A3A8 /* MainVC.swift */; };
+		08D7170D1F7B5A3000D5A3A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D7170B1F7B5A3000D5A3A8 /* Main.storyboard */; };
+		08D7170F1F7B5A3000D5A3A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D7170E1F7B5A3000D5A3A8 /* Assets.xcassets */; };
+		08D717121F7B5A3000D5A3A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D717101F7B5A3000D5A3A8 /* LaunchScreen.storyboard */; };
+		08D717281F7B5A3000D5A3A8 /* windowshopperappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D717271F7B5A3000D5A3A8 /* windowshopperappUITests.swift */; };
+		08D717381F7B5D3A00D5A3A8 /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D717371F7B5D3A00D5A3A8 /* CurrencyTxtField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0849793B1F7E0F3E007478A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08D716FC1F7B5A3000D5A3A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08D717031F7B5A3000D5A3A8;
+			remoteInfo = windowshopperapp;
+		};
+		08D717191F7B5A3000D5A3A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08D716FC1F7B5A3000D5A3A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08D717031F7B5A3000D5A3A8;
+			remoteInfo = windowshopperapp;
+		};
+		08D717241F7B5A3000D5A3A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08D716FC1F7B5A3000D5A3A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08D717031F7B5A3000D5A3A8;
+			remoteInfo = windowshopperapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		084979361F7E0F3E007478A6 /* windowshopperappTesting.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = windowshopperappTesting.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		084979411F7E0F7A007478A6 /* Wage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
+		08D717041F7B5A3000D5A3A8 /* windowshopperapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = windowshopperapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08D717071F7B5A3000D5A3A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08D717091F7B5A3000D5A3A8 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainVC.swift; path = windowshopperapp/MainVC.swift; sourceTree = SOURCE_ROOT; };
+		08D7170C1F7B5A3000D5A3A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08D7170E1F7B5A3000D5A3A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08D717111F7B5A3000D5A3A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08D717131F7B5A3000D5A3A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08D717181F7B5A3000D5A3A8 /* windowshopperappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = windowshopperappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08D717231F7B5A3000D5A3A8 /* windowshopperappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = windowshopperappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08D717271F7B5A3000D5A3A8 /* windowshopperappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = windowshopperappUITests.swift; sourceTree = "<group>"; };
+		08D717291F7B5A3000D5A3A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08D717371F7B5D3A00D5A3A8 /* CurrencyTxtField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		084979331F7E0F3E007478A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D717011F7B5A3000D5A3A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D717151F7B5A3000D5A3A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D717201F7B5A3000D5A3A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		084979401F7E0F69007478A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				084979411F7E0F7A007478A6 /* Wage.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		08D716FB1F7B5A3000D5A3A8 = {
+			isa = PBXGroup;
+			children = (
+				08D717061F7B5A3000D5A3A8 /* windowshopperapp */,
+				08D717261F7B5A3000D5A3A8 /* windowshopperappUITests */,
+				08D717051F7B5A3000D5A3A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08D717051F7B5A3000D5A3A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08D717041F7B5A3000D5A3A8 /* windowshopperapp.app */,
+				08D717181F7B5A3000D5A3A8 /* windowshopperappTests.xctest */,
+				08D717231F7B5A3000D5A3A8 /* windowshopperappUITests.xctest */,
+				084979361F7E0F3E007478A6 /* windowshopperappTesting.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08D717061F7B5A3000D5A3A8 /* windowshopperapp */ = {
+			isa = PBXGroup;
+			children = (
+				084979401F7E0F69007478A6 /* Model */,
+				08D717361F7B5D0C00D5A3A8 /* Views */,
+				08D717351F7B5B7400D5A3A8 /* Controller */,
+				08D717071F7B5A3000D5A3A8 /* AppDelegate.swift */,
+				08D7170B1F7B5A3000D5A3A8 /* Main.storyboard */,
+				08D7170E1F7B5A3000D5A3A8 /* Assets.xcassets */,
+				08D717101F7B5A3000D5A3A8 /* LaunchScreen.storyboard */,
+				08D717131F7B5A3000D5A3A8 /* Info.plist */,
+			);
+			path = windowshopperapp;
+			sourceTree = "<group>";
+		};
+		08D717261F7B5A3000D5A3A8 /* windowshopperappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08D717271F7B5A3000D5A3A8 /* windowshopperappUITests.swift */,
+				08D717291F7B5A3000D5A3A8 /* Info.plist */,
+			);
+			path = windowshopperappUITests;
+			sourceTree = "<group>";
+		};
+		08D717351F7B5B7400D5A3A8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				08D717091F7B5A3000D5A3A8 /* MainVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		08D717361F7B5D0C00D5A3A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				08D717371F7B5D3A00D5A3A8 /* CurrencyTxtField.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		084979351F7E0F3E007478A6 /* windowshopperappTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0849793F1F7E0F3E007478A6 /* Build configuration list for PBXNativeTarget "windowshopperappTesting" */;
+			buildPhases = (
+				084979321F7E0F3E007478A6 /* Sources */,
+				084979331F7E0F3E007478A6 /* Frameworks */,
+				084979341F7E0F3E007478A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0849793C1F7E0F3E007478A6 /* PBXTargetDependency */,
+			);
+			name = windowshopperappTesting;
+			productName = windowshopperappTesting;
+			productReference = 084979361F7E0F3E007478A6 /* windowshopperappTesting.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08D717031F7B5A3000D5A3A8 /* windowshopperapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08D7172C1F7B5A3000D5A3A8 /* Build configuration list for PBXNativeTarget "windowshopperapp" */;
+			buildPhases = (
+				08D717001F7B5A3000D5A3A8 /* Sources */,
+				08D717011F7B5A3000D5A3A8 /* Frameworks */,
+				08D717021F7B5A3000D5A3A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = windowshopperapp;
+			productName = windowshopperapp;
+			productReference = 08D717041F7B5A3000D5A3A8 /* windowshopperapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08D717171F7B5A3000D5A3A8 /* windowshopperappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08D7172F1F7B5A3000D5A3A8 /* Build configuration list for PBXNativeTarget "windowshopperappTests" */;
+			buildPhases = (
+				08D717141F7B5A3000D5A3A8 /* Sources */,
+				08D717151F7B5A3000D5A3A8 /* Frameworks */,
+				08D717161F7B5A3000D5A3A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08D7171A1F7B5A3000D5A3A8 /* PBXTargetDependency */,
+			);
+			name = windowshopperappTests;
+			productName = windowshopperappTests;
+			productReference = 08D717181F7B5A3000D5A3A8 /* windowshopperappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08D717221F7B5A3000D5A3A8 /* windowshopperappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08D717321F7B5A3000D5A3A8 /* Build configuration list for PBXNativeTarget "windowshopperappUITests" */;
+			buildPhases = (
+				08D7171F1F7B5A3000D5A3A8 /* Sources */,
+				08D717201F7B5A3000D5A3A8 /* Frameworks */,
+				08D717211F7B5A3000D5A3A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08D717251F7B5A3000D5A3A8 /* PBXTargetDependency */,
+			);
+			name = windowshopperappUITests;
+			productName = windowshopperappUITests;
+			productReference = 08D717231F7B5A3000D5A3A8 /* windowshopperappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08D716FC1F7B5A3000D5A3A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Su, Tina";
+				TargetAttributes = {
+					084979351F7E0F3E007478A6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 08D717031F7B5A3000D5A3A8;
+					};
+					08D717031F7B5A3000D5A3A8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					08D717171F7B5A3000D5A3A8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 08D717031F7B5A3000D5A3A8;
+					};
+					08D717221F7B5A3000D5A3A8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 08D717031F7B5A3000D5A3A8;
+					};
+				};
+			};
+			buildConfigurationList = 08D716FF1F7B5A3000D5A3A8 /* Build configuration list for PBXProject "windowshopperapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08D716FB1F7B5A3000D5A3A8;
+			productRefGroup = 08D717051F7B5A3000D5A3A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08D717031F7B5A3000D5A3A8 /* windowshopperapp */,
+				08D717171F7B5A3000D5A3A8 /* windowshopperappTests */,
+				08D717221F7B5A3000D5A3A8 /* windowshopperappUITests */,
+				084979351F7E0F3E007478A6 /* windowshopperappTesting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		084979341F7E0F3E007478A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D717021F7B5A3000D5A3A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D717121F7B5A3000D5A3A8 /* LaunchScreen.storyboard in Resources */,
+				08D7170F1F7B5A3000D5A3A8 /* Assets.xcassets in Resources */,
+				08D7170D1F7B5A3000D5A3A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D717161F7B5A3000D5A3A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D717211F7B5A3000D5A3A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		084979321F7E0F3E007478A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D717001F7B5A3000D5A3A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D717381F7B5D3A00D5A3A8 /* CurrencyTxtField.swift in Sources */,
+				084979421F7E0F7A007478A6 /* Wage.swift in Sources */,
+				08D7170A1F7B5A3000D5A3A8 /* MainVC.swift in Sources */,
+				08D717081F7B5A3000D5A3A8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D717141F7B5A3000D5A3A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D7171F1F7B5A3000D5A3A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D717281F7B5A3000D5A3A8 /* windowshopperappUITests.swift in Sources */,
+				084979431F7E10B8007478A6 /* Wage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0849793C1F7E0F3E007478A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08D717031F7B5A3000D5A3A8 /* windowshopperapp */;
+			targetProxy = 0849793B1F7E0F3E007478A6 /* PBXContainerItemProxy */;
+		};
+		08D7171A1F7B5A3000D5A3A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08D717031F7B5A3000D5A3A8 /* windowshopperapp */;
+			targetProxy = 08D717191F7B5A3000D5A3A8 /* PBXContainerItemProxy */;
+		};
+		08D717251F7B5A3000D5A3A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08D717031F7B5A3000D5A3A8 /* windowshopperapp */;
+			targetProxy = 08D717241F7B5A3000D5A3A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08D7170B1F7B5A3000D5A3A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08D7170C1F7B5A3000D5A3A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08D717101F7B5A3000D5A3A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08D717111F7B5A3000D5A3A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0849793D1F7E0F3E007478A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = windowshopperappTesting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tina-Su.windowshopperappTesting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/windowshopperapp.app/windowshopperapp";
+			};
+			name = Debug;
+		};
+		0849793E1F7E0F3E007478A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = windowshopperappTesting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tina-Su.windowshopperappTesting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/windowshopperapp.app/windowshopperapp";
+			};
+			name = Release;
+		};
+		08D7172A1F7B5A3000D5A3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08D7172B1F7B5A3000D5A3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08D7172D1F7B5A3000D5A3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = windowshopperapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = whatever.windowshopperapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		08D7172E1F7B5A3000D5A3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = windowshopperapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = whatever.windowshopperapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		08D717301F7B5A3000D5A3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = windowshopperappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = whatever.windowshopperappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/windowshopperapp.app/windowshopperapp";
+			};
+			name = Debug;
+		};
+		08D717311F7B5A3000D5A3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = windowshopperappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = whatever.windowshopperappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/windowshopperapp.app/windowshopperapp";
+			};
+			name = Release;
+		};
+		08D717331F7B5A3000D5A3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = windowshopperappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = whatever.windowshopperappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = windowshopperapp;
+			};
+			name = Debug;
+		};
+		08D717341F7B5A3000D5A3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = windowshopperappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = whatever.windowshopperappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = windowshopperapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0849793F1F7E0F3E007478A6 /* Build configuration list for PBXNativeTarget "windowshopperappTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0849793D1F7E0F3E007478A6 /* Debug */,
+				0849793E1F7E0F3E007478A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08D716FF1F7B5A3000D5A3A8 /* Build configuration list for PBXProject "windowshopperapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D7172A1F7B5A3000D5A3A8 /* Debug */,
+				08D7172B1F7B5A3000D5A3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08D7172C1F7B5A3000D5A3A8 /* Build configuration list for PBXNativeTarget "windowshopperapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D7172D1F7B5A3000D5A3A8 /* Debug */,
+				08D7172E1F7B5A3000D5A3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08D7172F1F7B5A3000D5A3A8 /* Build configuration list for PBXNativeTarget "windowshopperappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D717301F7B5A3000D5A3A8 /* Debug */,
+				08D717311F7B5A3000D5A3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08D717321F7B5A3000D5A3A8 /* Build configuration list for PBXNativeTarget "windowshopperappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D717331F7B5A3000D5A3A8 /* Debug */,
+				08D717341F7B5A3000D5A3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08D716FC1F7B5A3000D5A3A8 /* Project object */;
+}
